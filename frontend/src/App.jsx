@@ -33,10 +33,10 @@ const Starfield = () => {
 // Facts Widget Component
 const FactsWidget = () => {
   const facts = [
-    { icon: <Globe size={18} />, text: "AI Market to hit $407B by 2027." },
-    { icon: <Zap size={18} />, text: "DataNexus processes audits 400x faster than humans." },
-    { icon: <Shield size={18} />, text: "LangGraph ensures stateful, reliable AI decisions." },
-    { icon: <TrendingUp size={18} />, text: "Automated compliance reduces fraud by 90%." }
+    { icon: <Globe size={20} />, text: "AI Market to hit $407B by 2027." },
+    { icon: <Zap size={20} />, text: "DataNexus processes audits 400x faster than humans." },
+    { icon: <Shield size={20} />, text: "LangGraph ensures stateful, reliable AI decisions." },
+    { icon: <TrendingUp size={20} />, text: "Automated compliance reduces fraud by 90%." }
   ];
   const [index, setIndex] = useState(0);
 
