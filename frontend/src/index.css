@@ -9,7 +9,7 @@
   }
 
   50% {
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   100% {
@@ -22,7 +22,7 @@
   position: absolute;
   background: white;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
   animation: starfall linear infinite;
 }
 
@@ -44,8 +44,8 @@
 
 .glass {
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
